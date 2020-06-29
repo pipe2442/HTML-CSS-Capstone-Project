@@ -535,4 +535,21 @@ footer .copyright p {
   margin: 0;
   font-size: small;
 }
+
+form {
+  margin: 5rem 20%;
+}
+
+form .form-group {
+  width: 100%;
+  min-width: 17rem;
+}
+
+form .form-group .form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: dashed black 2px;
+  background-color: #D3D3D3;
+  opacity: 0.4;
+}
 /*# sourceMappingURL=main.css.map */
