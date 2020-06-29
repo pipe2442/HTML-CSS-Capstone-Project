@@ -347,6 +347,11 @@ template {
   text-decoration: none;
 }
 
+iframe {
+  min-width: 90%;
+  height: 50vw;
+}
+
 nav {
   height: 6rem;
   background-color: #f14b27;
