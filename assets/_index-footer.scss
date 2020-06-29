@@ -45,5 +45,24 @@ footer {
             }
         }
     }
+
+    .copyright {
+        background-color: #000000;
+        background-image: linear-gradient(180deg, #000000 0%, #414141 74%);
+        div {
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            .fab,
+            .fas {
+                margin: 0 1rem;
+                color: white;
+            }
+        }
+        p {
+            padding: 1rem 2rem;
+            margin: 0;
+            font-size: small;
+        }
+    }
 }
 
