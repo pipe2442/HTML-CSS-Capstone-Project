@@ -1,0 +1,49 @@
+footer {
+
+    background-color: black;
+    section {
+        ul {
+            height: 3rem;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            border-top: solid rgba(226,226,226,0.2) 1px;
+            border-bottom: solid rgba(226,226,226,0.2) 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            li {
+                margin: 0 43.2px
+            }
+            li :hover {
+                text-decoration: none;
+                color: white;
+            }
+            a {
+                color: white;
+            }
+        }
+        .logo-footer {
+            padding: 2rem;
+            border: solid white;
+            border-radius: 50%;
+        }
+        img {
+            width: 5rem;
+        }
+    }
+    section {
+        text-transform: uppercase;
+        color: white;
+        .footer-box {
+            width: 30rem;
+            padding: 0 2rem;
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+

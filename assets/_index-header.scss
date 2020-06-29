@@ -1,0 +1,38 @@
+nav {
+  height: 6rem;
+  background-color: $red-color;
+  padding: 0 5rem;
+  text-transform: uppercase;
+  .nav-links {
+    a {
+      color: white;
+      padding: 5px 0 5px 50px;
+    }
+  }
+  .nav-links :hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+.header-box {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/startup2.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  form {
+    background-color:rgba(226,226,226,0.5);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 1px solid;
+    div {
+      .form-control {
+        width: 45rem;
+      }
+      .btn {
+        background-color: $red-color;
+      }
+    }
+  }
+}
+
