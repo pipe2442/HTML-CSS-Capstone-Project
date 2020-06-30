@@ -1,0 +1,17 @@
+.prueba {
+    background-color: blue;
+    width: 80%;
+    margin: auto;
+    div {
+        ul {
+            margin: 2rem 0.2rem 0 0.2rem;
+            padding: 0;
+            li {
+               border: solid 1px black;
+               margin: 0.5rem 0;
+               padding: 0.5rem 0;
+               width: 35vw;
+            }
+        }
+    }
+}

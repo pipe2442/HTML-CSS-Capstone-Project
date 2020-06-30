@@ -557,4 +557,74 @@ form .form-group .form-control {
   background-color: #D3D3D3;
   opacity: 0.4;
 }
+
+.wrapper {
+  margin: 4rem;
+  background-color: #D3D3D3;
+  border-radius: 15px;
+  padding: 3rem 5rem;
+}
+
+.wrapper h2 {
+  opacity: 0.5;
+}
+
+.wrapper .result-form {
+  min-width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .result-form .form-group {
+  padding: 0;
+  margin: 0 0.5rem;
+  min-width: 0;
+  width: 10rem;
+}
+
+.wrapper .result-form .form-group .form-control {
+  border-style: none;
+  background-color: white;
+}
+
+section .box h5 {
+  background-color: #f14b27;
+  border: black solid 1px;
+  padding: 6rem;
+  margin: 0 auto;
+}
+
+section .box h5 a {
+  color: white;
+}
+
+.prueba {
+  background-color: blue;
+  width: 80%;
+  margin: auto;
+}
+
+.prueba div ul {
+  margin: 2rem 0.2rem 0 0.2rem;
+  padding: 0;
+}
+
+.prueba div ul li {
+  border: solid 1px black;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  width: 35vw;
+}
 /*# sourceMappingURL=main.css.map */
