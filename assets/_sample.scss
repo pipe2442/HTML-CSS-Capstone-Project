@@ -1,11 +1,18 @@
 .prueba {
-    background-color: blue;
+    padding: 2rem;
     width: 80%;
     margin: auto;
+    box-shadow: $box-shadow;
+    .facebook {
+        width: 20rem;
+    }
     div {
         ul {
             margin: 2rem 0.2rem 0 0.2rem;
             padding: 0;
+            span {
+                color: blue;
+            }
             li {
                border: solid 1px black;
                margin: 0.5rem 0;
@@ -14,4 +21,19 @@
             }
         }
     }
+}
+
+.info {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.details {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    padding: 1rem 2rem;
+    font-family: $arial;
+    box-shadow: $box-shadow;
 }
