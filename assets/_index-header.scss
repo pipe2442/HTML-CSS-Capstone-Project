@@ -70,7 +70,7 @@ nav {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 770px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -98,8 +98,8 @@ nav {
   }
 
   .header-box {
-    h2 {
-      font-size: medium;
+    h1 {
+      font-size: x-large;
     }
 
     form {
