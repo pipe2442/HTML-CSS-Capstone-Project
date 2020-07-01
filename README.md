@@ -8,7 +8,9 @@
 # Project Screenshot
 ![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/startupmockup1.jpg?raw=true)
 ![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/mockup2.png?raw=true)
-
+ 
+ # 5 Minute Video Demo.
+ -  [Click here to watch the video.](https://youtu.be/gJqinoIPJK4)
 
 This is a frontend based project for a website that seeks job opportunities for people on potential start-ups located principally in Silicon Valey CA or start-ups associated with the tech industry. 
 
