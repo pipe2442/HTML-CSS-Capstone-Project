@@ -1,12 +1,15 @@
 nav {
-  height: 6rem;
+  min-height: 6rem;
   background-color: $red-color;
   padding: 0 5rem;
   text-transform: uppercase;
+  .nav-logo {
+    width: 15rem;
+  }
   .nav-links {
     a {
       color: white;
-      padding: 5px 0 5px 50px;
+      margin: 5px 0 5px 50px;
     }
   }
   .nav-links :hover {
@@ -34,5 +37,36 @@ nav {
       }
     }
   }
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  span {
+      display: none;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    .nav-logo {
+      width: 10em;
+    }
+    .nav-links {
+      margin: 0;
+      padding: 1rem 0;  
+      a {
+        padding: 0 1rem;
+        margin: 0;
+        span {
+          display: none;
+        }
+      }
+    }
+  } 
 }
 

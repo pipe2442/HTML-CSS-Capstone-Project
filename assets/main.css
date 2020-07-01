@@ -353,15 +353,19 @@ iframe {
 }
 
 nav {
-  height: 6rem;
+  min-height: 6rem;
   background-color: #f14b27;
   padding: 0 5rem;
   text-transform: uppercase;
 }
 
+nav .nav-logo {
+  width: 15rem;
+}
+
 nav .nav-links a {
   color: white;
-  padding: 5px 0 5px 50px;
+  margin: 5px 0 5px 50px;
 }
 
 nav .nav-links :hover {
@@ -391,6 +395,45 @@ nav .nav-links :hover {
 
 .header-box form div .btn {
   background-color: #f14b27;
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  span {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  nav .nav-logo {
+    width: 10em;
+  }
+  nav .nav-links {
+    margin: 0;
+    padding: 1rem 0;
+  }
+  nav .nav-links a {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  nav .nav-links a span {
+    display: none;
+  }
 }
 
 .logos h3 {
