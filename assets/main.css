@@ -344,12 +344,41 @@ template {
 * {
   font-family: "Ubuntu", sans-serif;
   list-style: none;
-  text-decoration: none;
 }
 
 iframe {
   min-width: 90%;
   height: 50vw;
+}
+
+@-webkit-keyframes bounce-2 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 nav {
@@ -400,7 +429,7 @@ nav .nav-links :hover {
 }
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
-  span {
+  nav span {
     display: none;
   }
 }
@@ -595,7 +624,6 @@ footer section ul li {
 }
 
 footer section ul li :hover {
-  text-decoration: none;
   color: white;
 }
 
@@ -803,7 +831,7 @@ section .box h5 a {
 }
 
 .prueba {
-  padding: 2rem;
+  padding: 0 2rem;
   width: 80%;
   margin: auto;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -812,11 +840,13 @@ section .box h5 a {
 
 .prueba .facebook {
   width: 20rem;
+  display: block;
+  margin: 1rem auto;
 }
 
 .prueba div ul {
-  margin: 2rem 0.2rem 0 0.2rem;
-  padding: 0;
+  margin: 0 0.2rem;
+  padding: 0.5rem 1rem 0 1rem;
 }
 
 .prueba div ul span {
@@ -844,5 +874,61 @@ section .box h5 a {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  .prueba {
+    padding: 0 2rem;
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .prueba .facebook {
+    width: 10rem;
+    display: block;
+    margin: 1rem auto;
+  }
+  .prueba div ul {
+    margin: 0 0.2rem;
+    padding: 0.5rem 0 0 0;
+  }
+  .prueba div ul span {
+    color: blue;
+  }
+  .prueba div ul li {
+    border: solid 1px black;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    width: 35vw;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .prueba {
+    padding: 0 2rem;
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .prueba .facebook {
+    width: 10rem;
+    display: block;
+    margin: 1rem auto;
+  }
+  .prueba div ul {
+    margin: 0 0.2rem;
+    padding: 0 10rem;
+  }
+  .prueba div ul span {
+    color: blue;
+  }
+  .prueba div ul li {
+    border: solid 1px black;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 35vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
