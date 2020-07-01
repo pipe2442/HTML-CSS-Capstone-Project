@@ -13,8 +13,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         .form-group {
-            padding: 0;
+            padding: 1rem;
             margin: 0 0.5rem;
             min-width: 0;
             width: 10rem;
@@ -22,6 +23,10 @@
                 border-style: none;
                 background-color: white;
             }
+        }
+
+        .de-button {
+            padding: 1rem;
         }
     }
 }
@@ -38,4 +43,22 @@ section {
             }
         }
     }
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+    .wrapper {
+        padding: 1rem;
+        h2 {
+            font-size: 1.5rem;
+        }
+    }    
+}
+
+@media all and (max-width: 767px) {
+    .wrapper {
+        padding: 1rem;
+        h2 {
+            font-size: 1.2rem;
+        }
+    }  
 }

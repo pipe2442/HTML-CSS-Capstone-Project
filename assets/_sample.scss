@@ -42,28 +42,13 @@
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
     .prueba {
-        padding: 0 2rem;
-        width: 80%;
-        margin: auto;
-        box-shadow: $box-shadow;
         .facebook {
             width: 10rem;
-            display: block;
-            margin: 1rem auto;
         }
         div {
             ul {
                 margin: 0 0.2rem;
                 padding: 0.5rem 0 0 0;
-                span {
-                    color: blue;
-                }
-                li {
-                   border: solid 1px black;
-                   margin: 0.5rem 0;
-                   padding: 0.5rem 0;
-                   width: 35vw;
-                }
             }
         }
     }
@@ -71,27 +56,16 @@
 
 @media all and (max-width: 767px) {
     .prueba {
-        padding: 0 2rem;
-        width: 80%;
-        margin: auto;
-        box-shadow: $box-shadow;
         .facebook {
             width: 10rem;
-            display: block;
-            margin: 1rem auto;
         }
         div {
             ul {
                 margin: 0 0.2rem;
                 padding: 0 10rem;
-                span {
-                    color: blue;
-                }
+
                 li {
-                   border: solid 1px black;
-                   margin: 0.5rem 0;
                    padding: 0.5rem;
-                   width: 35vw;
                 }
             }
         }

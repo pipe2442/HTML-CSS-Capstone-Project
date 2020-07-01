@@ -805,10 +805,12 @@ form .form-group .form-control {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .wrapper .result-form .form-group {
-  padding: 0;
+  padding: 1rem;
   margin: 0 0.5rem;
   min-width: 0;
   width: 10rem;
@@ -817,6 +819,10 @@ form .form-group .form-control {
 .wrapper .result-form .form-group .form-control {
   border-style: none;
   background-color: white;
+}
+
+.wrapper .result-form .de-button {
+  padding: 1rem;
 }
 
 section .box h5 {
@@ -828,6 +834,24 @@ section .box h5 {
 
 section .box h5 a {
   color: white;
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  .wrapper {
+    padding: 1rem;
+  }
+  .wrapper h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .wrapper {
+    padding: 1rem;
+  }
+  .wrapper h2 {
+    font-size: 1.2rem;
+  }
 }
 
 .prueba {
@@ -877,58 +901,25 @@ section .box h5 a {
 }
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
-  .prueba {
-    padding: 0 2rem;
-    width: 80%;
-    margin: auto;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
   .prueba .facebook {
     width: 10rem;
-    display: block;
-    margin: 1rem auto;
   }
   .prueba div ul {
     margin: 0 0.2rem;
     padding: 0.5rem 0 0 0;
   }
-  .prueba div ul span {
-    color: blue;
-  }
-  .prueba div ul li {
-    border: solid 1px black;
-    margin: 0.5rem 0;
-    padding: 0.5rem 0;
-    width: 35vw;
-  }
 }
 
 @media all and (max-width: 767px) {
-  .prueba {
-    padding: 0 2rem;
-    width: 80%;
-    margin: auto;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
   .prueba .facebook {
     width: 10rem;
-    display: block;
-    margin: 1rem auto;
   }
   .prueba div ul {
     margin: 0 0.2rem;
     padding: 0 10rem;
   }
-  .prueba div ul span {
-    color: blue;
-  }
   .prueba div ul li {
-    border: solid 1px black;
-    margin: 0.5rem 0;
     padding: 0.5rem;
-    width: 35vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
