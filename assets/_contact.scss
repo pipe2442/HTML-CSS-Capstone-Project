@@ -1,14 +1,16 @@
 form {
-    margin: 5rem 20%;
-    .form-group {
-        width: 100%;
-        min-width: 17rem;
-        .form-control {
-            border: none;
-            border-radius: 0;
-            border-bottom: dashed black 2px;
-            background-color: $gray-light;
-            opacity: 0.4;
-        }
-    }   
+  margin: 5rem 20%;
+
+  .form-group {
+    width: 100%;
+    min-width: 17rem;
+
+    .form-control {
+      border: none;
+      border-radius: 0;
+      border-bottom: dashed black 2px;
+      background-color: $gray-light;
+      opacity: 0.4;
+    }
+  }
 }

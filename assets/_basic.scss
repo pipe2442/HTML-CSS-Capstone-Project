@@ -1,16 +1,16 @@
 
 * {
-    font-family: $font-style;
-    list-style: none;
+  font-family: $font-style;
+  list-style: none;
 }
 
 iframe {
-    min-width: 90%;
-    height: 50vw;
+  min-width: 90%;
+  height: 50vw;
 }
 
 @keyframes bounce-2 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-100px); }
-    100% { transform: translateY(0); }
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
 }

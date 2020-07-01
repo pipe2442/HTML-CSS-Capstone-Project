@@ -1,64 +1,71 @@
 .wrapper {
-    margin: 4rem;
-    background-color: $gray-light;
-    border-radius: 15px;
-    padding: 3rem 5rem;
-    h2 {
-        opacity: 0.5;
-    }
-    .result-form {
-        min-width: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        .form-group {
-            padding: 1rem;
-            margin: 0 0.5rem;
-            min-width: 0;
-            width: 10rem;
-            .form-control {
-                border-style: none;
-                background-color: white;
-            }
-        }
+  margin: 4rem;
+  background-color: $gray-light;
+  border-radius: 15px;
+  padding: 3rem 5rem;
 
-        .de-button {
-            padding: 1rem;
-        }
+  h2 {
+    opacity: 0.5;
+  }
+
+  .result-form {
+    min-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .form-group {
+      padding: 1rem;
+      margin: 0 0.5rem;
+      min-width: 0;
+      width: 10rem;
+
+      .form-control {
+        border-style: none;
+        background-color: white;
+      }
     }
+
+    .de-button {
+      padding: 1rem;
+    }
+  }
 }
 
 section {
-    .box {
-        h5 {
-            background-color: $red-color;
-            border: black solid 1px;
-            padding: 6rem;
-            margin: 0 auto;
-            a {
-                color: white;
-            }
-        }
+  .box {
+    h5 {
+      background-color: $red-color;
+      border: black solid 1px;
+      padding: 6rem;
+      margin: 0 auto;
+
+      a {
+        color: white;
+      }
     }
+  }
 }
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
-    .wrapper {
-        padding: 1rem;
-        h2 {
-            font-size: 1.5rem;
-        }
-    }    
+  .wrapper {
+    padding: 1rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
 }
 
 @media all and (max-width: 767px) {
-    .wrapper {
-        padding: 1rem;
-        h2 {
-            font-size: 1.2rem;
-        }
-    }  
+  .wrapper {
+    padding: 1rem;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
 }
