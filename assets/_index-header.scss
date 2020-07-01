@@ -20,6 +20,8 @@ nav {
 .header-box {
   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/startup2.jpg);
   height: 70vh;
+  min-height: 30vh;
+  min-width: 30%;
   background-repeat: no-repeat;
   background-size: cover;
   text-transform: uppercase;
@@ -30,7 +32,7 @@ nav {
     border: 1px solid;
     div {
       .form-control {
-        width: 45rem;
+        width: 60vw;
       }
       .btn {
         background-color: $red-color;
@@ -67,6 +69,25 @@ nav {
         }
       }
     }
-  } 
+  }
+  .header-box {
+    h2 {
+      font-size: medium;
+    }
+    form {
+      padding: 1rem 3rem 0 3rem;
+      h4 {
+        font-size: medium;
+      }
+      div {
+        .form-control {
+          width: 30vw;
+        }
+        .form-control,
+        button {
+          font-size: x-small;
+        }
+      }
+    }
+  }  
 }
-

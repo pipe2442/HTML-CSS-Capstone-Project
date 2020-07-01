@@ -377,6 +377,8 @@ nav .nav-links :hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(images/startup2.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/startup2.jpg);
   height: 70vh;
+  min-height: 30vh;
+  min-width: 30%;
   background-repeat: no-repeat;
   background-size: cover;
   text-transform: uppercase;
@@ -390,7 +392,7 @@ nav .nav-links :hover {
 }
 
 .header-box form div .form-control {
-  width: 45rem;
+  width: 60vw;
 }
 
 .header-box form div .btn {
@@ -434,24 +436,40 @@ nav .nav-links :hover {
   nav .nav-links a span {
     display: none;
   }
+  .header-box h2 {
+    font-size: medium;
+  }
+  .header-box form {
+    padding: 1rem 3rem 0 3rem;
+  }
+  .header-box form h4 {
+    font-size: medium;
+  }
+  .header-box form div .form-control {
+    width: 30vw;
+  }
+  .header-box form div .form-control,
+  .header-box form div button {
+    font-size: x-small;
+  }
 }
 
-.logos h3 {
+main .logos h3 {
   color: #f14b27;
   text-transform: uppercase;
 }
 
-.logos .logo-box {
-  padding: 20px 100px;
+main .logos .logo-box {
+  padding: 1rem 10vw;
 }
 
-.feed .feed-box1 {
+main .feed .feed-box1 {
   background-color: #f14b27;
   color: white;
   padding: 2rem 4rem;
 }
 
-.feed .feed-box1 img {
+main .feed .feed-box1 img {
   width: 20rem;
   min-width: 20rem;
   height: 20rem;
@@ -459,17 +477,17 @@ nav .nav-links :hover {
   border-radius: 50%;
 }
 
-.feed .feed-box1 .btn {
+main .feed .feed-box1 .btn {
   width: 10rem;
 }
 
-.feed .feed-box2 {
+main .feed .feed-box2 {
   background-color: #14c897;
   color: white;
   padding: 2rem 4rem;
 }
 
-.feed .feed-box2 img {
+main .feed .feed-box2 img {
   width: 20rem;
   min-width: 20rem;
   height: 20rem;
@@ -477,17 +495,17 @@ nav .nav-links :hover {
   border-radius: 50%;
 }
 
-.feed .feed-box2 .btn {
+main .feed .feed-box2 .btn {
   width: 10rem;
 }
 
-.feed .feed-box3 {
+main .feed .feed-box3 {
   background-color: #3aa0ff;
   color: white;
   padding: 2rem 4rem;
 }
 
-.feed .feed-box3 img {
+main .feed .feed-box3 img {
   width: 20rem;
   min-width: 20rem;
   height: 20rem;
@@ -495,8 +513,56 @@ nav .nav-links :hover {
   border-radius: 50%;
 }
 
-.feed .feed-box3 .btn {
+main .feed .feed-box3 .btn {
   width: 10rem;
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  .feed .row .feed-box1,
+  .feed .row .feed-box2,
+  .feed .row .feed-box3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .feed .row .feed-box1 button,
+  .feed .row .feed-box2 button,
+  .feed .row .feed-box3 button {
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .feed .row .feed-box1,
+  .feed .row .feed-box2,
+  .feed .row .feed-box3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .feed .row .feed-box1 button,
+  .feed .row .feed-box2 button,
+  .feed .row .feed-box3 button {
+    margin: auto;
+  }
 }
 
 footer {
