@@ -3,19 +3,19 @@ footer {
     background-color: black;
     section {
         ul {
-            height: 3rem;
+            height: auto;
             width: 50%;
-            margin: 0;
-            padding: 0;
+            margin: 0 ;
+            padding: 0 1rem;
             text-transform: uppercase;
             border-top: solid rgba(226,226,226,0.2) 1px;
             border-bottom: solid rgba(226,226,226,0.2) 1px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             li {
-                margin: 0 43.2px
+                margin: 0 1rem;
             }
             li :hover {
                 text-decoration: none;
@@ -63,6 +63,96 @@ footer {
             margin: 0;
             font-size: small;
         }
+    }
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+    footer {
+        section {
+            ul {
+                justify-content: center;
+                li {
+                    font-size: small;
+                }
+            }
+            img {
+                width: 3rem;
+            }    
+        }
+        .footer-main {
+            .footer-box {
+                h4 {
+                    font-size: large;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+            .copyright {
+                background-color: #000000;
+                background-image: linear-gradient(180deg, #000000 0%, #414141 74%);
+                div {
+                    font-size: 1.5rem;
+                    padding: 1rem 2rem;
+                    .fab,
+                    .fas {
+                        margin: 0 1rem;
+                        color: white;
+                    }
+                }
+                p {
+                    padding: 1rem 2rem;
+                    margin: 0;
+                    font-size: small;
+                }
+            } 
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    footer {
+        section {
+            ul {
+                justify-content: center;
+                padding: 0;
+                li {
+                    font-size: small;
+                }
+            }
+            img {
+                width: 3rem;
+            }     
+        }
+        .footer-main {
+            flex-wrap: wrap;
+            .footer-box {
+                h4 {
+                    font-size: large;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }    
+        .copyright {
+            background-color: #000000;
+            background-image: linear-gradient(180deg, #000000 0%, #414141 74%);
+            div {
+                font-size: 1.5rem;
+                padding: 1rem 2rem;
+                .fab,
+                .fas {
+                    margin: 0 1rem;
+                    color: white;
+                }
+            }
+            p {
+                padding: 1rem 2rem;
+                margin: 0;
+                font-size: small;
+            }
+        } 
     }
 }
 

@@ -570,10 +570,10 @@ footer {
 }
 
 footer section ul {
-  height: 3rem;
+  height: auto;
   width: 50%;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   text-transform: uppercase;
   border-top: solid rgba(226, 226, 226, 0.2) 1px;
   border-bottom: solid rgba(226, 226, 226, 0.2) 1px;
@@ -586,12 +586,12 @@ footer section ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer section ul li {
-  margin: 0 43.2px;
+  margin: 0 1rem;
 }
 
 footer section ul li :hover {
@@ -648,6 +648,89 @@ footer .copyright p {
   padding: 1rem 2rem;
   margin: 0;
   font-size: small;
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  footer section ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer section ul li {
+    font-size: small;
+  }
+  footer section img {
+    width: 3rem;
+  }
+  footer .footer-main .footer-box h4 {
+    font-size: large;
+  }
+  footer .footer-main .footer-box p {
+    font-size: 10px;
+  }
+  footer .footer-main .copyright {
+    background-color: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(74%, #414141));
+    background-image: linear-gradient(180deg, #000000 0%, #414141 74%);
+  }
+  footer .footer-main .copyright div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  footer .footer-main .copyright div .fab,
+  footer .footer-main .copyright div .fas {
+    margin: 0 1rem;
+    color: white;
+  }
+  footer .footer-main .copyright p {
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: small;
+  }
+}
+
+@media all and (max-width: 767px) {
+  footer section ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  footer section ul li {
+    font-size: small;
+  }
+  footer section img {
+    width: 3rem;
+  }
+  footer .footer-main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer-main .footer-box h4 {
+    font-size: large;
+  }
+  footer .footer-main .footer-box p {
+    font-size: 10px;
+  }
+  footer .copyright {
+    background-color: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(74%, #414141));
+    background-image: linear-gradient(180deg, #000000 0%, #414141 74%);
+  }
+  footer .copyright div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  footer .copyright div .fab,
+  footer .copyright div .fas {
+    margin: 0 1rem;
+    color: white;
+  }
+  footer .copyright p {
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: small;
+  }
 }
 
 form {
