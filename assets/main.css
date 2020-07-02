@@ -413,6 +413,11 @@ nav .nav-links :hover {
   text-transform: uppercase;
 }
 
+.header-box h1 {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
 .header-box form {
   background-color: rgba(226, 226, 226, 0.5);
   padding: 3rem;
@@ -420,15 +425,15 @@ nav .nav-links :hover {
   border: 1px solid;
 }
 
-.header-box form div .form-control {
+.header-box form .control .form-control {
   width: 60vw;
 }
 
-.header-box form div .btn {
+.header-box form .control .btn {
   background-color: #f14b27;
 }
 
-.header-box form div .btn a {
+.header-box form .control .btn a {
   color: white;
 }
 
@@ -436,7 +441,7 @@ nav .nav-links :hover {
   nav span {
     display: none;
   }
-  nav .header-box form div .btn {
+  nav .header-box form .control .btn {
     padding: 0 1rem;
   }
 }
@@ -479,19 +484,26 @@ nav .nav-links :hover {
     padding: 1rem 3rem 0 3rem;
   }
   .header-box form h4 {
-    font-size: medium;
+    font-size: 0.9rem;
   }
-  .header-box form div .form-control {
-    width: 30vw;
+  .header-box form .control {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .header-box form div .form-control,
-  .header-box form div button {
+  .header-box form .control .form-control {
+    width: 50vw;
+  }
+  .header-box form .control .form-control,
+  .header-box form .control button {
     font-size: x-small;
   }
-  .header-box form div .btn {
+  .header-box form .control .btn {
     padding: 0.4rem 0.2rem;
     font-size: x-small;
     margin: auto;
+    width: 100%;
   }
 }
 

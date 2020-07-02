@@ -30,13 +30,18 @@ nav {
   background-size: cover;
   text-transform: uppercase;
 
+  h1 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
   form {
     background-color: rgba(226, 226, 226, 0.5);
     padding: 3rem;
     border-radius: 25px;
     border: 1px solid;
 
-    div {
+    .control {
       .form-control {
         width: 60vw;
       }
@@ -60,7 +65,7 @@ nav {
 
     .header-box {
       form {
-        div {
+        .control {
           .btn {
             padding: 0 1rem;
           }
@@ -106,12 +111,13 @@ nav {
       padding: 1rem 3rem 0 3rem;
 
       h4 {
-        font-size: medium;
+        font-size: 0.9rem;
       }
 
-      div {
+      .control {
+        flex-direction: column;
         .form-control {
-          width: 30vw;
+          width: 50vw;
         }
 
         .form-control,
@@ -123,6 +129,7 @@ nav {
           padding: 0.4rem 0.2rem;
           font-size: x-small;
           margin: auto;
+          width: 100%;
         }
       }
     }
