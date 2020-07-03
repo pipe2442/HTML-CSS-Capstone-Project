@@ -4,6 +4,9 @@
 
 >This project is a website based on [PatashuleKE design](https://www.behance.net/gallery/25563385/PatashuleKE).
 
+## Colors note for TSE'S:
+
+>Guys sorry for the issues with, I have Deutan color blindness conditions, so some colors are kind for me to distinguish and in the design, they didn't give us color codes, I made my best effort to correct them and make them look like the original I hope you like it this time. I will remove this note when the project gets approved.
 
 # Project Screenshot
 ![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/startupmockup1.jpg?raw=true)
@@ -26,7 +29,7 @@ This project has been developed to accomplish the HTML and CSS capstone project 
 
 ## Live Demo
 
--  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/HTML-CSS-Capstone-Project/e7c3c8d92abfac093b9a47872abf7eedf4bb6df2/index.html)
+-  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/HTML-CSS-Capstone-Project/066b76a08ca11bf14c72eeb57b5f8f33b6665917/index.html)
 
 ## Getting Started
 
