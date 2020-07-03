@@ -6,7 +6,7 @@
 
 ## Colors note for TSE'S:
 
->Guys sorry for the issues with colors, I have Deutan color blindness conditions, so some colors are kind for me to distinguish and in the design, they didn't give us color codes, I made my best effort to correct them and make them look like the original I hope you like it this time. I will remove this note when the project gets approved.
+>Guys sorry for the issues with colors, I have Deutan color-blindness condition, so some colors are kind of hard for me to distinguish and in the design, they didn't give us color codes, I made my best effort to correct them and make them look like the original I hope you like it this time. I will remove this note when the project gets approved.
 
 # Project Screenshot
 ![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/startupmockup1.jpg?raw=true)
