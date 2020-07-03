@@ -43,6 +43,13 @@ Setup your machine setup
 - HTML validator
 - CSS Linters
 
+### Usage
+
+Cd into the repository "cd HTML-CSS-Capstone-Project"
+
+Open the "index.html" file and run it with any browser of your choice
+
+
 
 ## Authors
 
