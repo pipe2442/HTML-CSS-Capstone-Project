@@ -383,7 +383,7 @@ iframe {
 
 nav {
   min-height: 6rem;
-  background-color: #f54f4ffd;
+  background-color: #ff4d4d;
   padding: 0 5rem;
   text-transform: uppercase;
 }
@@ -430,7 +430,7 @@ nav .nav-links :hover {
 }
 
 .header-box form .control .btn {
-  background-color: #f54f4ffd;
+  background-color: #ff4d4d;
 }
 
 .header-box form .control .btn a {
@@ -508,7 +508,7 @@ nav .nav-links :hover {
 }
 
 main .logos h3 {
-  color: #f54f4ffd;
+  color: #ff4d4d;
   text-transform: uppercase;
 }
 
@@ -517,7 +517,7 @@ main .logos .logo-box {
 }
 
 main .feed .feed-box1 {
-  background-color: #f54f4ffd;
+  background-color: #ff4d4d;
   color: white;
   padding: 2rem 4rem;
 }
@@ -535,7 +535,7 @@ main .feed .feed-box1 .btn {
 }
 
 main .feed .feed-box2 {
-  background-color: #2ea17f;
+  background-color: #00b3b3;
   color: white;
   padding: 2rem 4rem;
 }
@@ -553,7 +553,7 @@ main .feed .feed-box2 .btn {
 }
 
 main .feed .feed-box3 {
-  background-color: #2b79c2;
+  background-color: #9999ff;
   color: white;
   padding: 2rem 4rem;
 }
@@ -831,7 +831,7 @@ form .form-group .form-control {
 }
 
 section .box h5 {
-  background-color: #f54f4ffd;
+  background-color: #ff4d4d;
   border: black solid 1px;
   padding: 6rem;
   margin: 0 auto;
