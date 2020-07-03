@@ -26,7 +26,7 @@ This project has been developed to accomplish the HTML and CSS capstone project 
 
 ## Live Demo
 
--  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/HTML-CSS-Capstone-Project/a7e975aa048acc7599a7c29836634cb8aa2eee49/index.html)
+-  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/HTML-CSS-Capstone-Project/e7c3c8d92abfac093b9a47872abf7eedf4bb6df2/index.html)
 
 ## Getting Started
 
