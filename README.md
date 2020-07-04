@@ -5,8 +5,8 @@
 >This project is a website based on [PatashuleKE design](https://www.behance.net/gallery/25563385/PatashuleKE).
 
 # Project Screenshot
-![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/startupmockup1.jpg?raw=true)
-![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/github-pages/assets/images/mockup2.png?raw=true)
+![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/master/assets/images/startupmockup1.jpg?raw=true)
+![screenshot](https://github.com/pipe2442/HTML-CSS-Capstone-Project/blob/master/assets/images/mockup2.png?raw=true)
  
  # 5 Minute Video Demo.
  -  [Click here to watch the video.](https://youtu.be/gJqinoIPJK4)
