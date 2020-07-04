@@ -1,0 +1,108 @@
+main {
+  .logos {
+    h3 {
+      color: $red-color;
+      text-transform: uppercase;
+    }
+
+    .logo-box {
+      padding: 1rem 5vw;
+    }
+  }
+
+  .feed {
+    .feed-box1 {
+      background-color: $red-color;
+      color: white;
+      padding: 2rem 4rem;
+
+      img {
+        width: 20rem;
+        min-width: 20rem;
+        height: 20rem;
+        min-height: 20rem;
+        border-radius: 50%;
+      }
+
+      .btn {
+        width: 10rem;
+      }
+    }
+
+    .feed-box2 {
+      background-color: $green-color;
+      color: white;
+      padding: 2rem 4rem;
+
+      img {
+        width: 20rem;
+        min-width: 20rem;
+        height: 20rem;
+        min-height: 20rem;
+        border-radius: 50%;
+      }
+
+      .btn {
+        width: 10rem;
+      }
+    }
+
+    .feed-box3 {
+      background-color: $blue-color;
+      color: white;
+      padding: 2rem 4rem;
+
+      img {
+        width: 20rem;
+        min-width: 20rem;
+        height: 20rem;
+        min-height: 20rem;
+        border-radius: 50%;
+      }
+
+      .btn {
+        width: 10rem;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {
+  .feed {
+    .row {
+      .feed-box1,
+      .feed-box2,
+      .feed-box3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 0;
+
+        button {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .feed {
+    .row {
+      .feed-box1,
+      .feed-box2,
+      .feed-box3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 0;
+
+        button {
+          margin: auto;
+        }
+      }
+    }
+  }
+}

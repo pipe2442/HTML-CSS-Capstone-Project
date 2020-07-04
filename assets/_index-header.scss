@@ -1,0 +1,138 @@
+nav {
+  min-height: 6rem;
+  background-color: $red-color;
+  padding: 0 5rem;
+  text-transform: uppercase;
+
+  .nav-logo {
+    width: 15rem;
+  }
+
+  .nav-links {
+    a {
+      color: white;
+      margin: 5px 0 5px 50px;
+    }
+  }
+
+  .nav-links :hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.header-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/startup2.jpg);
+  height: 70vh;
+  min-height: 30vh;
+  min-width: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  form {
+    background-color: rgba(226, 226, 226, 0.5);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 1px solid;
+
+    .control {
+      .form-control {
+        width: 60vw;
+      }
+
+      .btn {
+        background-color: $red-color;
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  nav {
+    span {
+      display: none;
+    }
+
+    .header-box {
+      form {
+        .control {
+          .btn {
+            padding: 0 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 770px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+
+    .nav-logo {
+      width: 10em;
+    }
+
+    .nav-links {
+      margin: 0;
+      padding: 1rem 0;
+
+      a {
+        padding: 0 1rem;
+        margin: 0;
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .header-box {
+    h1 {
+      font-size: x-large;
+    }
+
+    form {
+      padding: 1rem 3rem 0 3rem;
+
+      h4 {
+        font-size: 0.9rem;
+      }
+
+      .control {
+        flex-direction: column;
+
+        .form-control {
+          width: 50vw;
+        }
+
+        .form-control,
+        button {
+          font-size: x-small;
+        }
+
+        .btn {
+          padding: 0.4rem 0.2rem;
+          font-size: x-small;
+          margin: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
